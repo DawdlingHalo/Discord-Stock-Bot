@@ -9,4 +9,9 @@ The .env file contains the variables one requires while working with a discord b
 
 
 ## botv1.py 
-This file highlights the bot name and mentions the servers it's connected to. 
+This file highlights the bot name and mentions the servers it's connected to.
+
+## botv2py
+This version of the bot deals with the command "99!" that displays random messages from the created list with the help of the on_message event handler. Exception handling has also been dealt with in this iteration
+
+Here we made use of the client which is a superclass of the bot. In the next version, we will see the bot implementation.
