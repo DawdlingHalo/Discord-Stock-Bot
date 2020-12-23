@@ -18,3 +18,8 @@ Here we made use of the client which is a superclass of the bot. In the next ver
 
 ## botv3.py
 In this file , we shift from making use of client to using bot.command. This specifies the name and provides information on what it does. The bot will accept a command only if it has a '!' in its prefix. This version of bot is able to roll n number of die and display their respective result.
+
+## botv4.py
+This bot iteration creates a channel only if the person calling the command has the role of an admin. If a non-admin user call the function , it immediately informs the user that they don't have the permission.
+
+The command "show-stock" displays present day graph of the mentioned stock as an image. For this , we required kaleido to generate an image and plotly for making the graph with the data we got from yfinance.
