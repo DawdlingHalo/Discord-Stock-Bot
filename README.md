@@ -15,3 +15,6 @@ This file highlights the bot name and mentions the servers it's connected to.
 This version of the bot deals with the command "99!" that displays random messages from the created list with the help of the on_message event handler. Exception handling has also been dealt with in this iteration
 
 Here we made use of the client which is a superclass of the bot. In the next version, we will see the bot implementation.
+
+## botv3.py
+In this file , we shift from making use of client to using bot.command. This specifies the name and provides information on what it does. The bot will accept a command only if it has a '!' in its prefix. This version of bot is able to roll n number of die and display their respective result.
