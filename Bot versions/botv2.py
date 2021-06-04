@@ -10,14 +10,15 @@ TOKEN = os.getenv('DISCORD_TOKEN')# Discord token
 
 client = discord.Client()
 
-
+#1. Displays confirmation after connecting with discord servers
 @client.event
-async def on_ready():
+async def on_ready(): 
     print(
         f'Batman, {client.user.name} has connected to Discord!' +
         f'\n{client.user}\n '
         )
 
+# 2. Sends a welcome message to a newly joined member
 @client.event
 async def on_member_join(member): # not working currently
     await member.create_dm()
@@ -25,6 +26,7 @@ async def on_member_join(member): # not working currently
         f'Hi {member.name}, mere Server par swagat hai twaada !'
     )    
 
+#3. Sends a random messsage when user texts "99!"
 @client.event
 async def on_message(message):
     if message.author == client.user:
