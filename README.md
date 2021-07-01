@@ -23,3 +23,6 @@ In this file , we shift from making use of client to using bot.command. This spe
 This bot iteration creates a channel only if the person calling the command has the role of an admin. If a non-admin user call the function , it immediately informs the user that they don't have the permission.
 
 The command "show-stock" displays present day graph of the mentioned stock as an image. For this , we required kaleido to generate an image and plotly for making the graph with the data we got from yfinance.
+
+## botv5.py
+This bot gives End of the Day (EOD) details of the company stock along with the rest of the commands already given in previous versions. It shows the details in a specific format of pointers. 
