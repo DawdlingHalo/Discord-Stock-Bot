@@ -26,3 +26,8 @@ The command "show-stock" displays present day graph of the mentioned stock as an
 
 ## botv5.py
 This bot gives End of the Day (EOD) details of the company stock along with the rest of the commands already given in previous versions. It shows the details in a specific format of pointers. 
+
+## botv6.py
+This displays stock updates of a company every hour. Since market opens at 9:30am - 4:00pm , the hoursly updates follow after every hour starting form 9:30. Time between 3:30pm to 4:00pm is considered as individual update.
+
+Like previously , the rest functions are present in this iteration too.
